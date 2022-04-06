@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rdani2005.text.HelloController">
+   <children>
+      <Text fx:id="nameOut" layoutX="130.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name" wrappingWidth="356.13671875">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameIn" layoutX="174.0" layoutY="182.0" prefHeight="50.0" prefWidth="253.0" />
+      <Button layoutX="197.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#nameChange" prefHeight="59.0" prefWidth="166.0" text="Button" />
+   </children>
+</AnchorPane>
